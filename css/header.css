@@ -1,0 +1,35 @@
+header {
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 30px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.menu-bar__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar__menu img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.menu-bar__title {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.menu-bar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  width: 50px;
+}

@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 5px;
+}
+
+#timer {
+  font-size: 25px;
+  font-weight: bold;
+}
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(233, 235, 237);
+  width: 100px;
+  height: 100px;
+  font-size: 15px;
+  font-weight: bold;
+}
